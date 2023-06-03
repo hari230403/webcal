@@ -1,0 +1,167 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+ 
+  input[type="text"] {
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #c9f3f8;
+    color: #333;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+
+button:hover {
+  background-color: #93caef;
+}
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f4f4;
+    color: #333;
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  button:active {
+    background-color: #bbb;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid #000;
+  }
+  
+ 
+  body {width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://usagif.com/wp-content/uploads/gifs/starfall-gif-46.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .calculator {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 20px;
+  background-image: url("maths-background.jpg");
+  background-size: cover;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #333;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .calculator {
+    padding: 10px;
+  }
+
+  button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
+/* dvcxvcvkcxvcxv */
+.calculator {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #f9f7f7;
+    padding: 20px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-plaid-background-image_337364.jpg");
+    background-size: cover;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .calculator {
+      padding: 10px;
+    }
+  
+    button {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+  
+    input[type="text"] {
+      font-size: 18px;
+      padding: 8px;
+    }
+  }
+  
